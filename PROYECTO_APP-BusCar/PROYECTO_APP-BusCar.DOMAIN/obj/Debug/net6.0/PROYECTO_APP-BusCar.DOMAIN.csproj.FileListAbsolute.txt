@@ -1,0 +1,14 @@
+D:\DPA\DesarrolloWeb\Samples\PROYECTO_APP-BusCar.API\PROYECTO_APP-BusCar\PROYECTO_APP-BusCar.DOMAIN\bin\Debug\net6.0\PROYECTO_APP-BusCar.DOMAIN.deps.json
+D:\DPA\DesarrolloWeb\Samples\PROYECTO_APP-BusCar.API\PROYECTO_APP-BusCar\PROYECTO_APP-BusCar.DOMAIN\bin\Debug\net6.0\PROYECTO_APP-BusCar.DOMAIN.runtimeconfig.json
+D:\DPA\DesarrolloWeb\Samples\PROYECTO_APP-BusCar.API\PROYECTO_APP-BusCar\PROYECTO_APP-BusCar.DOMAIN\bin\Debug\net6.0\PROYECTO_APP-BusCar.DOMAIN.dll
+D:\DPA\DesarrolloWeb\Samples\PROYECTO_APP-BusCar.API\PROYECTO_APP-BusCar\PROYECTO_APP-BusCar.DOMAIN\bin\Debug\net6.0\PROYECTO_APP-BusCar.DOMAIN.pdb
+D:\DPA\DesarrolloWeb\Samples\PROYECTO_APP-BusCar.API\PROYECTO_APP-BusCar\PROYECTO_APP-BusCar.DOMAIN\obj\Debug\net6.0\PROYECTO_APP-BusCar.DOMAIN.csproj.AssemblyReference.cache
+D:\DPA\DesarrolloWeb\Samples\PROYECTO_APP-BusCar.API\PROYECTO_APP-BusCar\PROYECTO_APP-BusCar.DOMAIN\obj\Debug\net6.0\PROYECTO_APP-BusCar.DOMAIN.GeneratedMSBuildEditorConfig.editorconfig
+D:\DPA\DesarrolloWeb\Samples\PROYECTO_APP-BusCar.API\PROYECTO_APP-BusCar\PROYECTO_APP-BusCar.DOMAIN\obj\Debug\net6.0\PROYECTO_APP-BusCar.DOMAIN.AssemblyInfoInputs.cache
+D:\DPA\DesarrolloWeb\Samples\PROYECTO_APP-BusCar.API\PROYECTO_APP-BusCar\PROYECTO_APP-BusCar.DOMAIN\obj\Debug\net6.0\PROYECTO_APP-BusCar.DOMAIN.AssemblyInfo.cs
+D:\DPA\DesarrolloWeb\Samples\PROYECTO_APP-BusCar.API\PROYECTO_APP-BusCar\PROYECTO_APP-BusCar.DOMAIN\obj\Debug\net6.0\PROYECTO_APP-BusCar.DOMAIN.csproj.CoreCompileInputs.cache
+D:\DPA\DesarrolloWeb\Samples\PROYECTO_APP-BusCar.API\PROYECTO_APP-BusCar\PROYECTO_APP-BusCar.DOMAIN\obj\Debug\net6.0\PROYECTO_APP-BusCar.DOMAIN.dll
+D:\DPA\DesarrolloWeb\Samples\PROYECTO_APP-BusCar.API\PROYECTO_APP-BusCar\PROYECTO_APP-BusCar.DOMAIN\obj\Debug\net6.0\refint\PROYECTO_APP-BusCar.DOMAIN.dll
+D:\DPA\DesarrolloWeb\Samples\PROYECTO_APP-BusCar.API\PROYECTO_APP-BusCar\PROYECTO_APP-BusCar.DOMAIN\obj\Debug\net6.0\PROYECTO_APP-BusCar.DOMAIN.pdb
+D:\DPA\DesarrolloWeb\Samples\PROYECTO_APP-BusCar.API\PROYECTO_APP-BusCar\PROYECTO_APP-BusCar.DOMAIN\obj\Debug\net6.0\PROYECTO_APP-BusCar.DOMAIN.genruntimeconfig.cache
+D:\DPA\DesarrolloWeb\Samples\PROYECTO_APP-BusCar.API\PROYECTO_APP-BusCar\PROYECTO_APP-BusCar.DOMAIN\obj\Debug\net6.0\ref\PROYECTO_APP-BusCar.DOMAIN.dll

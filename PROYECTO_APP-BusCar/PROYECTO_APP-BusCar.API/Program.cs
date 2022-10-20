@@ -1,21 +1,51 @@
+using AutoMapper;
+using Microsoft.EntityFrameworkCore;
+using PROYECTO_APP_BusCar.DOMAIN.Core.Interfaces;
+using PROYECTO_APP_BusCar.DOMAIN.Infrastructure.Data;
+using PROYECTO_APP_BusCar.DOMAIN.Infrastructure.Mapping;
+using PROYECTO_APP_BusCar.DOMAIN.Infrastructure.Repositories;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddRazorPages();
+
+builder.Services.AddControllers();
+// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
+var connectionString = builder
+    .Configuration
+    .GetConnectionString("DevConnection");
+builder
+    .Services
+    .AddDbContext<DB_BUSContext>
+    (Options => Options.UseSqlServer(connectionString));
+
+builder.Services.AddTransient<IClienteRepository, ClienteRepository>();
+builder.Services.AddTransient<IComprobanteRepository, ComprobanteRepository>();
+builder.Services.AddTransient<IDestinoRepository, DestinoRepository>();
+builder.Services.AddTransient<IDetalleReservaRepository, DetalleReservaRepository>();
+
+var config = new MapperConfiguration(cfg =>
+{
+    cfg.AddProfile(new AutomapperProfile());
+});
+
+var mapper = config.CreateMapper();
+builder.Services.AddSingleton(mapper);
 
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (!app.Environment.IsDevelopment())
+if (app.Environment.IsDevelopment())
 {
-    app.UseExceptionHandler("/Error");
+    app.UseSwagger();
+    app.UseSwaggerUI();
 }
-app.UseStaticFiles();
-
-app.UseRouting();
 
 app.UseAuthorization();
 
-app.MapRazorPages();
+app.MapControllers();
 
 app.Run();
