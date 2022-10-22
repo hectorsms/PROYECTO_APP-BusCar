@@ -7,4 +7,12 @@
     <RootNamespace>PROYECTO_APP_BusCar.API</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PROYECTO_APP-BusCar.DOMAIN\PROYECTO_APP-BusCar.DOMAIN.csproj" />
+  </ItemGroup>
+
 </Project>

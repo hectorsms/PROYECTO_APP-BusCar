@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hector Mendoza\\OneDrive\\Escritorio\\Universidad\\DESWEB\\PROYECTO_APP-BusCar\\PROYECTO_APP-BusCar.API\\PROYECTO_APP-BusCar.API.csproj": {}
+    "C:\\Users\\Sheyla\\Source\\Repos\\PROYECTO_APP-BusCar\\PROYECTO_APP-BusCar\\PROYECTO_APP-BusCar.API\\PROYECTO_APP-BusCar.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hector Mendoza\\OneDrive\\Escritorio\\Universidad\\DESWEB\\PROYECTO_APP-BusCar\\PROYECTO_APP-BusCar.API\\PROYECTO_APP-BusCar.API.csproj": {
+    "C:\\Users\\Sheyla\\Source\\Repos\\PROYECTO_APP-BusCar\\PROYECTO_APP-BusCar\\PROYECTO_APP-BusCar.API\\PROYECTO_APP-BusCar.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hector Mendoza\\OneDrive\\Escritorio\\Universidad\\DESWEB\\PROYECTO_APP-BusCar\\PROYECTO_APP-BusCar.API\\PROYECTO_APP-BusCar.API.csproj",
+        "projectUniqueName": "C:\\Users\\Sheyla\\Source\\Repos\\PROYECTO_APP-BusCar\\PROYECTO_APP-BusCar\\PROYECTO_APP-BusCar.API\\PROYECTO_APP-BusCar.API.csproj",
         "projectName": "PROYECTO_APP-BusCar.API",
-        "projectPath": "C:\\Users\\Hector Mendoza\\OneDrive\\Escritorio\\Universidad\\DESWEB\\PROYECTO_APP-BusCar\\PROYECTO_APP-BusCar.API\\PROYECTO_APP-BusCar.API.csproj",
-        "packagesPath": "C:\\Users\\Hector Mendoza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hector Mendoza\\OneDrive\\Escritorio\\Universidad\\DESWEB\\PROYECTO_APP-BusCar\\PROYECTO_APP-BusCar.API\\obj\\",
+        "projectPath": "C:\\Users\\Sheyla\\Source\\Repos\\PROYECTO_APP-BusCar\\PROYECTO_APP-BusCar\\PROYECTO_APP-BusCar.API\\PROYECTO_APP-BusCar.API.csproj",
+        "packagesPath": "C:\\Users\\Sheyla\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sheyla\\Source\\Repos\\PROYECTO_APP-BusCar\\PROYECTO_APP-BusCar\\PROYECTO_APP-BusCar.API\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Hector Mendoza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Sheyla\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,80 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Sheyla\\Source\\Repos\\PROYECTO_APP-BusCar\\PROYECTO_APP-BusCar\\PROYECTO_APP-BusCar.DOMAIN\\PROYECTO_APP-BusCar.DOMAIN.csproj": {
+                "projectPath": "C:\\Users\\Sheyla\\Source\\Repos\\PROYECTO_APP-BusCar\\PROYECTO_APP-BusCar\\PROYECTO_APP-BusCar.DOMAIN\\PROYECTO_APP-BusCar.DOMAIN.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Sheyla\\Source\\Repos\\PROYECTO_APP-BusCar\\PROYECTO_APP-BusCar\\PROYECTO_APP-BusCar.DOMAIN\\PROYECTO_APP-BusCar.DOMAIN.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Sheyla\\Source\\Repos\\PROYECTO_APP-BusCar\\PROYECTO_APP-BusCar\\PROYECTO_APP-BusCar.DOMAIN\\PROYECTO_APP-BusCar.DOMAIN.csproj",
+        "projectName": "PROYECTO_APP-BusCar.DOMAIN",
+        "projectPath": "C:\\Users\\Sheyla\\Source\\Repos\\PROYECTO_APP-BusCar\\PROYECTO_APP-BusCar\\PROYECTO_APP-BusCar.DOMAIN\\PROYECTO_APP-BusCar.DOMAIN.csproj",
+        "packagesPath": "C:\\Users\\Sheyla\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sheyla\\Source\\Repos\\PROYECTO_APP-BusCar\\PROYECTO_APP-BusCar\\PROYECTO_APP-BusCar.DOMAIN\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Sheyla\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,6 +117,22 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -51,9 +145,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
