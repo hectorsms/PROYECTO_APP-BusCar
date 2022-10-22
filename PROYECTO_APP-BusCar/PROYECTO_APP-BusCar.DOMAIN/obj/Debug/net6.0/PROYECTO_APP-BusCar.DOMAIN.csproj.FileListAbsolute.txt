@@ -1,0 +1,14 @@
+C:\Users\LENOVO\Documents\GitHub\PROYECTO_APP-BusCar\PROYECTO_APP-BusCar\PROYECTO_APP-BusCar.DOMAIN\bin\Debug\net6.0\PROYECTO_APP-BusCar.DOMAIN.deps.json
+C:\Users\LENOVO\Documents\GitHub\PROYECTO_APP-BusCar\PROYECTO_APP-BusCar\PROYECTO_APP-BusCar.DOMAIN\bin\Debug\net6.0\PROYECTO_APP-BusCar.DOMAIN.dll
+C:\Users\LENOVO\Documents\GitHub\PROYECTO_APP-BusCar\PROYECTO_APP-BusCar\PROYECTO_APP-BusCar.DOMAIN\bin\Debug\net6.0\PROYECTO_APP-BusCar.DOMAIN.pdb
+C:\Users\LENOVO\Documents\GitHub\PROYECTO_APP-BusCar\PROYECTO_APP-BusCar\PROYECTO_APP-BusCar.DOMAIN\obj\Debug\net6.0\PROYECTO_APP-BusCar.DOMAIN.csproj.AssemblyReference.cache
+C:\Users\LENOVO\Documents\GitHub\PROYECTO_APP-BusCar\PROYECTO_APP-BusCar\PROYECTO_APP-BusCar.DOMAIN\obj\Debug\net6.0\PROYECTO_APP-BusCar.DOMAIN.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\Documents\GitHub\PROYECTO_APP-BusCar\PROYECTO_APP-BusCar\PROYECTO_APP-BusCar.DOMAIN\obj\Debug\net6.0\PROYECTO_APP-BusCar.DOMAIN.AssemblyInfoInputs.cache
+C:\Users\LENOVO\Documents\GitHub\PROYECTO_APP-BusCar\PROYECTO_APP-BusCar\PROYECTO_APP-BusCar.DOMAIN\obj\Debug\net6.0\PROYECTO_APP-BusCar.DOMAIN.AssemblyInfo.cs
+C:\Users\LENOVO\Documents\GitHub\PROYECTO_APP-BusCar\PROYECTO_APP-BusCar\PROYECTO_APP-BusCar.DOMAIN\obj\Debug\net6.0\PROYECTO_APP-BusCar.DOMAIN.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Documents\GitHub\PROYECTO_APP-BusCar\PROYECTO_APP-BusCar\PROYECTO_APP-BusCar.DOMAIN\obj\Debug\net6.0\PROYECTO_APP-BusCar.DOMAIN.dll
+C:\Users\LENOVO\Documents\GitHub\PROYECTO_APP-BusCar\PROYECTO_APP-BusCar\PROYECTO_APP-BusCar.DOMAIN\obj\Debug\net6.0\refint\PROYECTO_APP-BusCar.DOMAIN.dll
+C:\Users\LENOVO\Documents\GitHub\PROYECTO_APP-BusCar\PROYECTO_APP-BusCar\PROYECTO_APP-BusCar.DOMAIN\obj\Debug\net6.0\PROYECTO_APP-BusCar.DOMAIN.pdb
+C:\Users\LENOVO\Documents\GitHub\PROYECTO_APP-BusCar\PROYECTO_APP-BusCar\PROYECTO_APP-BusCar.DOMAIN\obj\Debug\net6.0\ref\PROYECTO_APP-BusCar.DOMAIN.dll
+C:\Users\LENOVO\Documents\GitHub\PROYECTO_APP-BusCar\PROYECTO_APP-BusCar\PROYECTO_APP-BusCar.DOMAIN\bin\Debug\net6.0\PROYECTO_APP-BusCar.DOMAIN.runtimeconfig.json
+C:\Users\LENOVO\Documents\GitHub\PROYECTO_APP-BusCar\PROYECTO_APP-BusCar\PROYECTO_APP-BusCar.DOMAIN\obj\Debug\net6.0\PROYECTO_APP-BusCar.DOMAIN.genruntimeconfig.cache
