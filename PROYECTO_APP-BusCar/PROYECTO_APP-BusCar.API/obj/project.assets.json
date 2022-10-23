@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hector Mendoza\\OneDrive\\Escritorio\\Universidad\\DESWEB\\PROYECTO_APP-BusCar\\PROYECTO_APP-BusCar.API\\PROYECTO_APP-BusCar.API.csproj",
+      "projectUniqueName": "C:\\Users\\Hector Mendoza\\OneDrive\\Escritorio\\Universidad\\DESWEB\\PROYECTO_APP-BusCar\\PROYECTO_APP-BusCar\\PROYECTO_APP-BusCar.API\\PROYECTO_APP-BusCar.API.csproj",
       "projectName": "PROYECTO_APP-BusCar.API",
-      "projectPath": "C:\\Users\\Hector Mendoza\\OneDrive\\Escritorio\\Universidad\\DESWEB\\PROYECTO_APP-BusCar\\PROYECTO_APP-BusCar.API\\PROYECTO_APP-BusCar.API.csproj",
+      "projectPath": "C:\\Users\\Hector Mendoza\\OneDrive\\Escritorio\\Universidad\\DESWEB\\PROYECTO_APP-BusCar\\PROYECTO_APP-BusCar\\PROYECTO_APP-BusCar.API\\PROYECTO_APP-BusCar.API.csproj",
       "packagesPath": "C:\\Users\\Hector Mendoza\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hector Mendoza\\OneDrive\\Escritorio\\Universidad\\DESWEB\\PROYECTO_APP-BusCar\\PROYECTO_APP-BusCar.API\\obj\\",
+      "outputPath": "C:\\Users\\Hector Mendoza\\OneDrive\\Escritorio\\Universidad\\DESWEB\\PROYECTO_APP-BusCar\\PROYECTO_APP-BusCar\\PROYECTO_APP-BusCar.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Hector Mendoza\\AppData\\Roaming\\NuGet\\NuGet.Config",
