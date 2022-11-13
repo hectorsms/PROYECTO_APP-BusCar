@@ -1,0 +1,261 @@
+﻿
+<div class="alert alert-primary">
+    <div class="row">
+        <div class="col-md-6">
+            <h4>PASAJEROS (CHIMBOTE - LIMA)</h4>
+        </div>
+        <div class="col-md-6">
+            <h4>SÁBADO 12 DE NOVIEMBRE DE 2022 - 10:45 PM</h4>
+        </div>
+    </div>
+
+</div>
+
+
+<div>
+    <div class="bs-callout bs-callout-primary tarjeta-pasajero" id="callout-inputgroup-text-input-only">         
+        <button style="font-size: 18px; margin-top: 5px;" type="button" class="close" id="eliminar-27094426">
+            <span aria-hidden="true">Eliminar</span>
+        </button>    
+            <span class="label label-success lbl-pasajero">Asiento: 50</span>    
+            <form class="frm-pasajeros">        
+                <div class="row">                
+                    <input type="hidden" id="idPersona-27094426" value="">                    
+                    <div class="form-group menosmarbottom col-sm-5">                
+                        <label class="margeneslb" for="idTipoDocumento">Tipo Documento*</label>                
+                        <select class="form-control mayuscula input-sm sel-tipo-doc tipoDocumento1" id="idTipoDocumento-27094426" placeholder="Tipo Documento">                                        
+                            <option data-length="8" value="1">DNI</option>                                        
+                            <option data-length="9" value="2">CARNET DE EXTRANJERIA</option>                                        
+                            <option data-length="12" value="3">PASAPORTE</option>                                    
+                        </select>            
+                     </div>            
+                     <div class="form-group menosmarbottom col-sm-7">                
+                         <label class="margeneslb" for="nuDocumento">N°Documento*</label>                
+                         <input idasiento="idPersona-27094426" orden="1" maxlength="8" type="text" field="nroDoc" class="enable-dec-jur form-control mayuscula input-sm find-doc nuDocumento1" id="nuDocumento-27094426" value="" placeholder="N°Documento">            
+                         <span class="help-block"></span>            
+                     </div>                    
+                </div>          
+                <div class="row">           
+                    <div class="form-group menosmarbottom col-xs-12 col-sm-12 col-md-4">                
+                        <label class="margeneslb" for="noPersona">Nombres*</label>                
+                        <input type="text" class="enable-dec-jur form-control mayuscula input-sm noPersona1" field="nombre" id="noPersona-27094426" value="" placeholder="Nombres">            
+                        <span class="help-block"></span>            
+                </div>                    
+                <div class="form-group menosmarbottom col-xs-12 col-sm-12 col-md-4">                
+                    <label class="margeneslb" for="apPersona">Apellido Paterno*</label>                
+                    <input type="text" class="enable-dec-jur form-control mayuscula input-sm apPersona1" field="apePat" id="apPersona-27094426" value="" placeholder="Apellido Paterno">                
+                    <span class="help-block"></span>            
+                </div>            
+                <div class="form-group menosmarbottom col-xs-12 col-sm-12 col-md-4">                
+                    <label class="margeneslb" for="amPersona">Apellido Materno*</label>                
+                    <input type="text" class="enable-dec-jur form-control mayuscula input-sm amPersona1" field="apeMat" id="amPersona-27094426" value="" placeholder="Apellido Materno">            
+                    <span class="help-block"></span>            
+                </div>                       
+                <div class="form-group menosmarbottom col-sm-12 cont-field-declaracion-jurada" style="display: none;">                
+                    <label class="margeneslb" for="deDireccionPasajero">Dirección (Pasajero)*</label>                
+                    <input type="text" class="enable-dec-jur form-control mayuscula input-sm" field="direccion" id="deDireccion-pasajero-27094426" value="" placeholder="Dirección">                
+                    <span class="help-block"></span>            
+                </div>        
+                </div>          
+                <div class="row">            
+                    <div class="form-group menosmarbottom col-xs-12 col-sm-6 col-md-4">                
+                        <label class="margeneslb" for="deSexo">Sexo*</label>                
+                        <select class="form-control mayuscula input-sm deSexo1" id="deSexo-27094426">                    
+                            <option selected="false" value="F">Femenino</option>                    
+                            <option selected="false" value="M">Masculino</option>                
+                        </select>                            
+                        
+                    </div>            
+                 <div class="form-group menosmarbottom col-xs-12 col-sm-6 col-md-4">                
+                     <label class="margeneslb" for="feNacimiento">Fecha Nacimiento*</label>                
+                     <input type="text" class="datepicker form-control input-sm feNacimiento1  hasDatepicker" style="font-weight: 500;" placeholder="Fecha Nacimiento" id="feNacimiento-27094426" value="">                
+                     <span class="help-block"></span>            
+                 </div>            
+                 <div class="form-group menosmarbottom col-xs-12 col-sm-6 col-md-4">                
+                     <label class="margeneslb" for="tipoEdadPasajero">Tipo Edad*</label>                
+                     <select class="form-control mayuscula input-sm sel-tipo-edad-pasajero tipoEdadPasajero1" value="adulto" id="tipoEdadPasajero-27094426" placeholder="Tipo Edad">                                        
+                         <option value="menor_edad"> Menor de edad (&lt; 18) </option>                    
+                         <option value="adulto" selected=""> Adulto (18 - 64)</option>                    
+                         <option value="adulto_mayor"> Adulto Mayor (&gt; 64) </option>                                    
+                     </select>           
+                 </div>      
+                 </div> 
+                 <div class="row">            
+                     <div class="form-group menosmarbottom col-xs-12 col-sm-6 col-md-4">                
+                         <label class="margeneslb" for="deTelefono">Teléfono*</label>                
+                         <input type="number" class="enable-dec-jur form-control mayuscula input-sm deTelefono1" field="telefono" id="deTelefono-27094426" value="" placeholder="Teléfono">                
+                         <span class="help-block"></span>            
+                    </div>            
+                    <div class="form-group menosmarbottom col-xs-12 col-sm-6 col-md-4">                
+                        <label class="margeneslb" for="deEmail">Email</label>                
+                        <input type="email" class="enable-dec-jur form-control input-sm deEmail1" field="email" id="deEmail-27094426" value="" placeholder="Email">            
+                        <span class="help-block"></span>            
+                        </div>            <!--%=((_.isUndefined(declaracionJurada) || declaracionJurada===null)? "adulto": declaracionJurada.tipo)%-->        
+                  </div>                  
+                  <div class="row">            
+                      <div class="form-group menosmarbottom col-xs-12 col-sm-6 col-md-3" style="vertical-align: middle;position: relative;">                
+                          <input style="height: 20px;width: 20px;position: absolute;" type="checkbox" class="custom-control-input inRuc" id="inRuc-27094426">                
+                          <label style="padding-left:  25px;" class="custom-control-label" for="inRuc-27094426">RUC</label>            
+                      </div>            
+                  <div class="form-group menosmarbottom col-xs-12 col-sm-6 col-md-3 cont-field-declaracion-jurada" style="vertical-align: middle; position: relative; display: none;">                
+                      <input style="height: 20px;width: 20px;position: absolute;" type="checkbox" class="custom-control-input chk-declaracion-jurada" id="declaracion-jurada-27094426" disabled="disabled">                
+                      <label style="padding-left:  25px;" class="custom-control-label" for="declaracion-jurada-27094426">Declaración Jurada*</label>            
+                  </div>        
+                  </div>        
+                  <div class="row hidden" id="form-ruc-27094426">                       
+                      <div class="form-group menosmarbottom col-sm-4">                
+                          <label class="margeneslb" for="nuRuc">N°Ruc*</label>                
+                          <input type="text" onkeypress="return soloNumeros(event);" maxlength="11" min="11" class="form-control mayuscula input-sm find-ruc" id="nuRuc-27094426" value="" placeholder="Número de Ruc">           
+                          <span class="help-block"></span>            
+                      </div>            
+                  <div class="form-group menosmarbottom col-sm-8">                
+                      <label class="margeneslb" for="deRazonsocial">Razón social*</label>                
+                      <input type="text" class="form-control mayuscula input-sm" id="deRazonsocial-27094426" value="" placeholder="Razón social">                
+                      <span class="help-block"></span>            
+                  </div>                        
+                  <div class="form-group menosmarbottom col-sm-12">                
+                      <label class="margeneslb" for="deDireccion">Dirección*</label>                
+                      <input type="text" class="form-control mayuscula input-sm" id="deDireccion-27094426" value="" placeholder="Dirección">                
+                      <span class="help-block"></span>            
+                  </div>        
+                  </div>    
+                  </form>
+     </div>
+</div>
+                  
+ 
+
+<div class="alert alert-primary">
+    <div class="row">
+        <div class="col-md-6">
+            <h4>PASAJEROS (CHIMBOTE - LIMA)</h4>
+        </div>
+        <div class="col-md-6">
+            <h4>MARTES 22 DE NOVIEMBRE DE 2022 - 10:45 PM</h4>
+        </div>
+
+
+    </div>
+
+</div>
+
+
+
+
+<div>
+    <div class="bs-callout bs-callout-primary tarjeta-pasajero" id="callout-inputgroup-text-input-only">         
+        <button style="font-size: 18px; margin-top: 5px;" type="button" class="close" id="eliminar-27094426">
+            <span aria-hidden="true">Eliminar</span>
+        </button>    
+            <span class="label label-success lbl-pasajero">Asiento: 63</span>    
+            <form class="frm-pasajeros">        
+                <div class="row">                
+                    <input type="hidden" id="idPersona-27094426" value="">                    
+                    <div class="form-group menosmarbottom col-sm-5">                
+                        <label class="margeneslb" for="idTipoDocumento">Tipo Documento*</label>                
+                        <select class="form-control mayuscula input-sm sel-tipo-doc tipoDocumento1" id="idTipoDocumento-27094426" placeholder="Tipo Documento">                                        
+                            <option data-length="8" value="1">DNI</option>                                        
+                            <option data-length="9" value="2">CARNET DE EXTRANJERIA</option>                                        
+                            <option data-length="12" value="3">PASAPORTE</option>                                    
+                        </select>            
+                     </div>            
+                     <div class="form-group menosmarbottom col-sm-7">                
+                         <label class="margeneslb" for="nuDocumento">N°Documento*</label>                
+                         <input idasiento="idPersona-27094426" orden="1" maxlength="8" type="text" field="nroDoc" class="enable-dec-jur form-control mayuscula input-sm find-doc nuDocumento1" id="nuDocumento-27094426" value="" placeholder="N°Documento">            
+                         <span class="help-block"></span>            
+                     </div>                    
+                </div>          
+                <div class="row">           
+                    <div class="form-group menosmarbottom col-xs-12 col-sm-12 col-md-4">                
+                        <label class="margeneslb" for="noPersona">Nombres*</label>                
+                        <input type="text" class="enable-dec-jur form-control mayuscula input-sm noPersona1" field="nombre" id="noPersona-27094426" value="" placeholder="Nombres">            
+                        <span class="help-block"></span>            
+                </div>                    
+                <div class="form-group menosmarbottom col-xs-12 col-sm-12 col-md-4">                
+                    <label class="margeneslb" for="apPersona">Apellido Paterno*</label>                
+                    <input type="text" class="enable-dec-jur form-control mayuscula input-sm apPersona1" field="apePat" id="apPersona-27094426" value="" placeholder="Apellido Paterno">                
+                    <span class="help-block"></span>            
+                </div>            
+                <div class="form-group menosmarbottom col-xs-12 col-sm-12 col-md-4">                
+                    <label class="margeneslb" for="amPersona">Apellido Materno*</label>                
+                    <input type="text" class="enable-dec-jur form-control mayuscula input-sm amPersona1" field="apeMat" id="amPersona-27094426" value="" placeholder="Apellido Materno">            
+                    <span class="help-block"></span>            
+                </div>                       
+                <div class="form-group menosmarbottom col-sm-12 cont-field-declaracion-jurada" style="display: none;">                
+                    <label class="margeneslb" for="deDireccionPasajero">Dirección (Pasajero)*</label>                
+                    <input type="text" class="enable-dec-jur form-control mayuscula input-sm" field="direccion" id="deDireccion-pasajero-27094426" value="" placeholder="Dirección">                
+                    <span class="help-block"></span>            
+                </div>        
+                </div>          
+                <div class="row">            
+                    <div class="form-group menosmarbottom col-xs-12 col-sm-6 col-md-4">                
+                        <label class="margeneslb" for="deSexo">Sexo*</label>                
+                        <select class="form-control mayuscula input-sm deSexo1" id="deSexo-27094426">                    
+                            <option selected="false" value="F">Femenino</option>                    
+                            <option selected="false" value="M">Masculino</option>                
+                        </select>                            
+                        
+                    </div>            
+                 <div class="form-group menosmarbottom col-xs-12 col-sm-6 col-md-4">                
+                     <label class="margeneslb" for="feNacimiento">Fecha Nacimiento*</label>                
+                     <input type="text" class="datepicker form-control input-sm feNacimiento1  hasDatepicker" style="font-weight: 500;" placeholder="Fecha Nacimiento" id="feNacimiento-27094426" value="">                
+                     <span class="help-block"></span>            
+                 </div>            
+                 <div class="form-group menosmarbottom col-xs-12 col-sm-6 col-md-4">                
+                     <label class="margeneslb" for="tipoEdadPasajero">Tipo Edad*</label>                
+                     <select class="form-control mayuscula input-sm sel-tipo-edad-pasajero tipoEdadPasajero1" value="adulto" id="tipoEdadPasajero-27094426" placeholder="Tipo Edad">                                        
+                         <option value="menor_edad"> Menor de edad (&lt; 18) </option>                    
+                         <option value="adulto" selected=""> Adulto (18 - 64)</option>                    
+                         <option value="adulto_mayor"> Adulto Mayor (&gt; 64) </option>                                    
+                     </select>           
+                 </div>      
+                 </div> 
+                 <div class="row">            
+                     <div class="form-group menosmarbottom col-xs-12 col-sm-6 col-md-4">                
+                         <label class="margeneslb" for="deTelefono">Teléfono*</label>                
+                         <input type="number" class="enable-dec-jur form-control mayuscula input-sm deTelefono1" field="telefono" id="deTelefono-27094426" value="" placeholder="Teléfono">                
+                         <span class="help-block"></span>            
+                    </div>            
+                    <div class="form-group menosmarbottom col-xs-12 col-sm-6 col-md-4">                
+                        <label class="margeneslb" for="deEmail">Email</label>                
+                        <input type="email" class="enable-dec-jur form-control input-sm deEmail1" field="email" id="deEmail-27094426" value="" placeholder="Email">            
+                        <span class="help-block"></span>            
+                        </div>            <!--%=((_.isUndefined(declaracionJurada) || declaracionJurada===null)? "adulto": declaracionJurada.tipo)%-->        
+                  </div>                  
+                  <div class="row">            
+                      <div class="form-group menosmarbottom col-xs-12 col-sm-6 col-md-3" style="vertical-align: middle;position: relative;">                
+                          <input style="height: 20px;width: 20px;position: absolute;" type="checkbox" class="custom-control-input inRuc" id="inRuc-27094426">                
+                          <label style="padding-left:  25px;" class="custom-control-label" for="inRuc-27094426">RUC</label>            
+                      </div>            
+                  <div class="form-group menosmarbottom col-xs-12 col-sm-6 col-md-3 cont-field-declaracion-jurada" style="vertical-align: middle; position: relative; display: none;">                
+                      <input style="height: 20px;width: 20px;position: absolute;" type="checkbox" class="custom-control-input chk-declaracion-jurada" id="declaracion-jurada-27094426" disabled="disabled">                
+                      <label style="padding-left:  25px;" class="custom-control-label" for="declaracion-jurada-27094426">Declaración Jurada*</label>            
+                  </div>        
+                  </div>        
+                  <div class="row hidden" id="form-ruc-27094426">                       
+                      <div class="form-group menosmarbottom col-sm-4">                
+                          <label class="margeneslb" for="nuRuc">N°Ruc*</label>                
+                          <input type="text" onkeypress="return soloNumeros(event);" maxlength="11" min="11" class="form-control mayuscula input-sm find-ruc" id="nuRuc-27094426" value="" placeholder="Número de Ruc">           
+                          <span class="help-block"></span>            
+                      </div>            
+                  <div class="form-group menosmarbottom col-sm-8">                
+                      <label class="margeneslb" for="deRazonsocial">Razón social*</label>                
+                      <input type="text" class="form-control mayuscula input-sm" id="deRazonsocial-27094426" value="" placeholder="Razón social">                
+                      <span class="help-block"></span>            
+                  </div>                        
+                  <div class="form-group menosmarbottom col-sm-12">                
+                      <label class="margeneslb" for="deDireccion">Dirección*</label>                
+                      <input type="text" class="form-control mayuscula input-sm" id="deDireccion-27094426" value="" placeholder="Dirección">                
+                      <span class="help-block"></span>            
+                  </div>        
+                  </div>    
+                  </form>
+     </div>
+</div>
+
+
+<div class="col-12">
+
+	<button class="btn btn-primary btn-lg" type="submit" formaction="http://localhost:5287/Ventas/VentaBoleto/VentaBoletoDatosPersonales">SIGUIENTE</button>
+																     
+</div>

@@ -1,0 +1,68 @@
+﻿<div class="alert alert-primary">
+	<div class="row">
+		<div class="col-md-12">
+			<h3>DOMINGO 13 DE NOVIEMBRE DE 2022</h3>
+		</div>
+
+	</div>
+		<div class="row">
+		<div class="col-md-12">
+			<h3>BUSES DE IDA</h3>
+		</div>
+
+	</div>
+
+</div>
+
+<div id="divListadoProgramacionIda">
+</div>
+
+
+<div class="alert alert-primary">
+	<div class="row">
+		<div class="col-md-12">
+			<h3>MARTES 22 DE NOVIEMBRE DE 2022</h3>
+		</div>
+
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<h3>BUSES DE RETORNO</h3>
+		</div>
+
+	</div>
+
+</div>
+
+<div id="divListadoProgramacionRetorno">
+</div>
+
+<div class="col-12">
+
+	<button class="btn btn-primary btn-lg" type="submit" formaction="http://localhost:5287/Ventas/VentaBoleto/VentaBoletoAsiento">SIGUIENTE</button>
+																     
+</div>
+
+
+<script>
+
+	CargaProgramacion();
+	function CargaProgramacion() {
+		$.ajax({
+			type: "GET",
+			url: '@Url.Action("VentaBoletoProgramacionList","VentaBoleto",new {Area="Ventas"})',
+			cache: false,
+			success: function (dataHTML) {
+				$("#divListadoProgramacionIda").html(dataHTML);
+				$("#divListadoProgramacionRetorno").html(dataHTML);
+
+			}
+		});
+
+	}
+
+</script>
+
+
+
+

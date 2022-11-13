@@ -1,0 +1,50 @@
+﻿@{
+	int i2 = 0, i3 = 0, i4 = 0;
+	string cadena1 = "", cadena2 = "", cadena3 = "", cadena4 = "";
+	string cadenaname1 = "", cadenaname2 = "", cadenaname3 = "", cadenaname4 = "";
+
+}
+
+<table id="tbListadoAsiento" class="table table-striped">
+	<thead>
+		<tr>
+			<th>SELECCIONAR ASIENTOS</th>
+			<th></th>
+		</tr>
+	</thead>
+	<tbody>
+		@for (var i = 20; i <= 60; i += 4)
+		{
+			i2 = i + 1;
+			i3 = i + 2;
+			i4 = i + 3;
+			cadena1 = "success" + i.ToString() + "-outlined";
+			cadena2 = "success" + i2.ToString() + "-outlined";
+			cadena3 = "success" + i3.ToString() + "-outlined";
+			cadena4 = "success" + i4.ToString() + "-outlined";
+
+			cadenaname1 = "options-outlined" + i.ToString();
+			cadenaname2 = "options-outlined" + i2.ToString();
+			cadenaname3 = "options-outlined" + i3.ToString();
+			cadenaname4 = "options-outlined" + i4.ToString();
+
+			<tr>
+				<td>
+					<input type="radio" class="btn-check" name="@cadenaname1" id="@cadena1" autocomplete="off">
+					<label class="btn btn-outline-success" data-toggle="tooltip" title="Precio: S/. 105.00" for="@cadena1">@i</label>
+					<input type="radio" class="btn-check" name="@cadenaname2" id="@cadena2" autocomplete="off">
+					<label class="btn btn-outline-success" data-toggle="tooltip" title="Precio: S/. 105.00" for="@cadena2">@i2</label>
+				</td>
+			
+				<td>
+					<input type="radio" class="btn-check" name="@cadenaname3" id="@cadena3" autocomplete="off">
+					<label class="btn btn-outline-success" data-toggle="tooltip" title="Precio: S/. 105.00" for="@cadena3">@i3</label>
+					<input type="radio" class="btn-check" name="@cadenaname4" id="@cadena4" autocomplete="off">
+					<label class="btn btn-outline-success" data-toggle="tooltip" title="Precio: S/. 105.00" for="@cadena4">@i4</label>
+				</td>
+
+		</tr>
+		}
+	</tbody>
+
+</table>

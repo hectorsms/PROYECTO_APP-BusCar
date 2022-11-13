@@ -1,0 +1,89 @@
+﻿@using WebAppBusMVC.WEB.Models
+@{
+    var destinos = ViewBag.ListaDestinos as IEnumerable<DestinoViewModel>;
+    var origenes = ViewBag.ListaOrigenes as IEnumerable<OrigenViewModel>;
+    
+}
+
+
+<div class="alert alert-primary">
+    <div class="row">
+        <div class="col-md-4">
+            <h4>Hola, busca tu pasaje</h4>
+        </div>
+    </div>
+
+</div>
+
+<form class="row g-3 needs-validation" novalidate>
+
+    <div class="col-md-3">
+        <label for="validationCustom03" class="form-label">Origen</label>
+        <select class="form-select" id="validationCustom03" required>
+            <option selected disabled value="">Seleccionar...</option>
+            @foreach (var item in origenes)
+		    {
+                <option value="@item.IdOrigen">@item.Ciudad</option>
+            }
+            
+        </select>
+    </div>
+
+    <div class="col-md-3">
+        <label for="validationCustom04" class="form-label">Destino</label>
+        <select class="form-select" id="validationCustom04" required>
+            <option selected disabled value="">Seleccionar...</option>
+            @foreach (var item in destinos)
+            {
+                <option value="@item.IdDestino">@item.Ciudad</option>
+            }
+
+        </select>
+    </div>
+
+    <div class="col-md-3">
+        <label for="validationCustom01" class="form-label">Fecha Ida</label>
+        <input type="date" class="form-control" id="validationCustom01" value="">
+    </div>
+
+    <div class="col-md-3">
+        <label for="validationCustom02" class="form-label">Fecha Retorno(Opcional)</label>
+        <input type="date" class="form-control" id="validationCustom02" value="">
+    </div>
+
+                           
+  <div class="col-12">
+
+        <button class="btn btn-primary btn-lg" type="submit" formaction="http://localhost:5287/Ventas/VentaBoleto/VentaBoletoProgramacion">BUSCAR</button>
+  </div>
+</form>
+
+<div id="divListadoCliente">
+</div>
+
+<script>    
+    $('#validationCustom01').val(new Date().toISOString().slice(0, 10));
+
+    @*$('#validationCustom02').val(new Date().toISOString().slice(0, 10));*@
+ 
+
+</script>
+
+@* <script>
+
+    $("#validationCustom04").ready(function () {
+        $.ajax({
+            type: "GET",
+            url: '@Url.Action("ListadoDestino","VentaBoleto",new {Area="Ventas"})',
+            data: "{}",
+            success: function (data) {
+                var s = '<option value="-1">...</option>';
+                for (var i = 0; i < data.length; i++) {
+                    console.log(data[i])
+                    s += '<option value="' + data[i].IdDestino + '">' + data[i].Ciudad + '</option>';
+                }
+                $("#validationCustom04").html(s);
+            }
+        });
+    });
+ </script>*@

@@ -1,0 +1,43 @@
+﻿<div class="alert alert-primary">
+	<div class="row">
+		<div class="col-md-12">
+			<h3>INFORMACIÓN DE VIAJE</h3>
+		</div>
+
+		<div class="col-md-12">
+			<h3>Ruta:LIMA  - SULLANA</h3>
+			<h3>Fecha:11-11-2022</h3>
+			<h3>Hora:04:00 PM</h3>			
+		</div>
+	</div>
+
+
+</div>
+
+<div id="divListadoAsiento">
+
+</div>
+<div class="col-12">
+
+	<button class="btn btn-primary btn-lg" type="submit" formaction="http://localhost:5287/Ventas/VentaBoleto/VentaBoletoDatosPersonales">SIGUIENTE</button>
+
+</div>
+
+
+<script>
+
+	CargaAsiento();
+	function CargaAsiento() {
+		$.ajax({
+			type: "GET",
+			url: '@Url.Action("VentaBoletoAsientoList","VentaBoleto",new {Area="Ventas"})',
+			cache: false,
+			success: function (dataHTML) {
+				$("#divListadoAsiento").html(dataHTML);	
+
+				}
+		});
+
+	}
+
+</script>
