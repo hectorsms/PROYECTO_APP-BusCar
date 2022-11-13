@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\APP-BusCar",
+    "\\APP-BusCar\\APP-BusCar",
+    "\\APP-BusCar\\APP-BusCar\\APP-BusCar.API",
+    "\\APP-BusCar\\APP-BusCar\\APP-BusCar.API\\Controllers"
+  ],
+  "SelectedNode": "\\APP-BusCar\\APP-BusCar\\APP-BusCar.API\\Controllers\\UsuarioController.cs",
+  "PreviewInSolutionExplorer": false
+}
